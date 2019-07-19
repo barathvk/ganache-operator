@@ -1,0 +1,6 @@
+apiVersion: brickblock.io/v1alpha1
+kind: Ganache
+metadata:
+  name: test
+spec:
+  host: test.omsdad.dev

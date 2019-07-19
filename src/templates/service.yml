@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: "{{metadata.name}}"
+  namespace: "{{metadata.namespace}}"
+spec:
+  selector:
+    app: "{{metadata.name}}"
+  ports:
+    - name: rpc
+      port: 8545
